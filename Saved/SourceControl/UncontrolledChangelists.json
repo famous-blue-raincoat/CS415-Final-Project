@@ -1,0 +1,51 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/Maps/NewMap.umap",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/props_TileSet.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/tileset_TileMap.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/tileset_TileMap1.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/tileset_TileMap2.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/props_TileMap.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/props_TileMap1.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/props_TileMap2.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/Medieval_props_free_TileSet.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/Medieval_props_free_TileMap.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/Blueprint/NewBlueprint.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/back.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/back_Sprite.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/gem/gem-1.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/gem/gem-1_Sprite.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/gem/gem-2.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/gem/gem-3.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/gem/gem-4.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/gem/gem-5.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/Medieval_props_free.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/middle.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run-1.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run-1_Sprite.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run-2.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run-2_Sprite.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run-3.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run-3_Sprite.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run-4.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run-4_Sprite.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run-5.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run-5_Sprite.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run-6.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/sprites/player/run/player-run-6_Sprite.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/props.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/tileset.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/tileset_TileSet.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/PNG/environment/layers/tileset_TileMap3.uasset",
+				"D:/School/UIUC/CS415/test/FoxAdventure/Content/NewMap.umap"
+			]
+		}
+	]
+}
