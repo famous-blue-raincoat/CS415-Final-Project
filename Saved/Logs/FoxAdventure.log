@@ -2265,3 +2265,1182 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.04.05-04.47.11:413][293]LogFileHelpers: InternalPromptForCheckoutAndSave took 469 ms (total: 5.57 sec)
 [2023.04.05-04.47.11:422][293]AssetCheck: New page: Asset Save: NewMap3
 [2023.04.05-04.47.11:423][293]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/NewMap3.NewMap3
+[2023.04.05-04.48.37:046][696]LogEditorViewport: Clicking Background
+[2023.04.05-04.48.44:957][880]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.04.05-04.48.44:966][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.05-04.48.44:966][880]PIE: New page: PIE session: NewMap3 (Apr 4, 2023, 6:48:44 PM)
+[2023.04.05-04.48.44:966][880]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-04.48.44:980][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014078s)
+[2023.04.05-04.48.44:980][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap3.NewMap3 to /Game/Maps/UEDPIE_0_NewMap3.NewMap3 (0.014137s)
+[2023.04.05-04.48.44:980][880]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-04.48.44:980][880]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-04.48.44:981][880]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2023.04.05-04.48.44:999][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.04.05-04.48.45:000][880]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.04.05-04.48.45:000][880]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.05-04.48.45:000][880]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.05-04.48.45:000][880]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.05-04.48.45:000][880]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.05-04.48.45:000][880]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.05-04.48.45:000][880]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.05-04.48.45:000][880]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.05-04.48.45:000][880]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.05-04.48.45:001][880]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.05-04.48.45:001][880]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.05-04.48.45:001][880]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.05-04.48.45:005][880]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.05-04.48.45:034][880]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2023.04.05-04.48.45:035][880]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.05-04.48.45:035][880]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.05-04.48.45:035][880]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.05-04.48.45:037][880]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.04.05-04.48.45:037][880]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.04.05-04.48.45:040][880]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.04.05-04.48.45:040][880]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.04.05-04.48.45:040][880]LogInit: FAudioDevice initialized.
+[2023.04.05-04.48.45:040][880]LogAudio: Display: Audio Device (ID: 21) registered with world 'NewMap3'.
+[2023.04.05-04.48.45:165][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-04.48.45:165][880]LogLoad: Game class is 'GM_SideScroller_C'
+[2023.04.05-04.48.45:181][880]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap3.NewMap3 up for play (max tick rate 0) at 2023.04.04-23.48.45
+[2023.04.05-04.48.45:181][880]LogWorld: Bringing up level for play took: 0.015181
+[2023.04.05-04.48.45:185][880]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.04.05-04.48.45:201][880]PIE: Server logged in
+[2023.04.05-04.48.45:203][880]PIE: Play in editor total start time 0.239 seconds.
+[2023.04.05-04.48.45:234][880]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.04.05-04.48.46:511][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-04.48.46:512][896]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-04.48.46:518][896]LogSlate: Window 'FoxAdventure Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.04.05-04.48.46:705][896]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-04.48.46:707][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-04.48.46:714][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.05-04.48.46:719][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-04.48.46:737][896]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-04.48.46:737][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.04.05-04.48.46:741][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.04.05-04.48.46:754][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.04.05-04.48.46:805][897]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.04.05-04.48.52:202][ 46]LogEditorViewport: Clicking Background
+[2023.04.05-04.49.30:783][664]LogEditorViewport: Clicking Background
+[2023.04.05-04.50.13:945][867]LogEditorViewport: Clicking Background
+[2023.04.05-04.50.23:556][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.04.05-04.50.23:826][126]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/NewMap2.NewMap2
+[2023.04.05-04.50.23:826][126]Cmd: MAP LOAD FILE="../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.05-04.50.23:827][126]LightingResults: New page: Lighting Build
+[2023.04.05-04.50.23:827][126]LoadErrors: New page: Loading map: NewMap2.umap
+[2023.04.05-04.50.23:829][126]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-04.50.23:830][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-04.50.23:830][126]MapCheck: New page: Map Check
+[2023.04.05-04.50.23:830][126]LightingResults: New page: Lighting Build
+[2023.04.05-04.50.23:842][126]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-04.50.23:847][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.04.05-04.50.23:852][126]LogWorld: UWorld::CleanupWorld for NewMap2, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-04.50.23:853][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-04.50.23:867][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.04.05-04.50.23:881][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.04.05-04.50.23:890][126]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap2'.
+[2023.04.05-04.50.23:890][126]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-04.50.23:891][126]LogAIModule: Creating AISystem for world NewMap2
+[2023.04.05-04.50.23:948][126]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.05-04.50.23:965][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.04.05-04.50.23:979][126]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.05-04.50.23:980][126]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.277ms to complete.
+[2023.04.05-04.50.23:980][126]LogFileHelpers: Loading map 'NewMap2' took 0.154
+[2023.04.05-04.50.35:580][257]LogEditorViewport: Clicking Background
+[2023.04.05-04.50.40:188][389]LogViewport: Scene viewport resized to 1680x938, mode Windowed.
+[2023.04.05-04.50.40:309][391]LogViewport: Scene viewport resized to 1731x938, mode Windowed.
+[2023.04.05-04.50.40:469][396]LogViewport: Scene viewport resized to 1752x938, mode Windowed.
+[2023.04.05-04.50.41:085][415]LogViewport: Scene viewport resized to 1830x938, mode Windowed.
+[2023.04.05-04.50.41:187][417]LogViewport: Scene viewport resized to 1982x938, mode Windowed.
+[2023.04.05-04.50.41:240][419]LogViewport: Scene viewport resized to 1987x938, mode Windowed.
+[2023.04.05-04.50.41:294][421]LogViewport: Scene viewport resized to 2009x938, mode Windowed.
+[2023.04.05-04.50.41:344][423]LogViewport: Scene viewport resized to 2035x938, mode Windowed.
+[2023.04.05-04.50.41:407][424]LogViewport: Scene viewport resized to 2050x938, mode Windowed.
+[2023.04.05-04.50.48:677][636]LogEditorViewport: Clicking Background
+[2023.04.05-04.50.49:879][671]LogEditorViewport: Clicking Background
+[2023.04.05-04.50.57:879][910]LogEditorViewport: Clicking Background
+[2023.04.05-04.50.59:054][940]LogViewport: Scene viewport resized to 970x444, mode Windowed.
+[2023.04.05-04.50.59:835][960]LogEditorViewport: Clicking Background
+[2023.04.05-04.53.19:212][409]LogEditorViewport: Clicking Background
+[2023.04.05-04.53.21:364][448]LogEditorViewport: Clicking Background
+[2023.04.05-04.53.32:500][778]LogViewport: Scene viewport resized to 2050x922, mode Windowed.
+[2023.04.05-04.53.32:627][780]LogViewport: Scene viewport resized to 2050x883, mode Windowed.
+[2023.04.05-04.53.32:744][784]LogViewport: Scene viewport resized to 2050x864, mode Windowed.
+[2023.04.05-04.53.32:887][786]LogViewport: Scene viewport resized to 2050x815, mode Windowed.
+[2023.04.05-04.53.32:965][787]LogViewport: Scene viewport resized to 2050x790, mode Windowed.
+[2023.04.05-04.53.33:104][788]LogViewport: Scene viewport resized to 2050x735, mode Windowed.
+[2023.04.05-04.53.33:228][789]LogViewport: Scene viewport resized to 2050x718, mode Windowed.
+[2023.04.05-04.53.33:365][790]LogViewport: Scene viewport resized to 2050x696, mode Windowed.
+[2023.04.05-04.53.35:481][845]LogEditorViewport: Clicking Background
+[2023.04.05-05.02.16:552][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.04.05-05.02.16:890][556]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/NewMap3.NewMap3
+[2023.04.05-05.02.16:890][556]Cmd: MAP LOAD FILE="../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.05-05.02.16:890][556]LightingResults: New page: Lighting Build
+[2023.04.05-05.02.16:890][556]LoadErrors: New page: Loading map: NewMap3.umap
+[2023.04.05-05.02.16:894][556]LogWorld: UWorld::CleanupWorld for NewMap2, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.02.16:894][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.02.16:895][556]MapCheck: New page: Map Check
+[2023.04.05-05.02.16:895][556]LightingResults: New page: Lighting Build
+[2023.04.05-05.02.16:910][556]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.02.16:916][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.04.05-05.02.16:920][556]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.02.16:920][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.02.16:944][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.04.05-05.02.16:970][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.04.05-05.02.17:000][556]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap3'.
+[2023.04.05-05.02.17:001][556]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.02.17:002][556]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.02.17:089][556]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.05-05.02.17:119][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.04.05-05.02.17:139][556]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.05-05.02.17:139][556]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.329ms to complete.
+[2023.04.05-05.02.17:139][556]LogFileHelpers: Loading map 'NewMap3' took 0.250
+[2023.04.05-05.02.25:044][744]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.02.26:055][766]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.04.05-05.02.26:064][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.05-05.02.26:064][766]PIE: New page: PIE session: NewMap3 (Apr 4, 2023, 7:02:26 PM)
+[2023.04.05-05.02.26:064][766]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.02.26:077][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013384s)
+[2023.04.05-05.02.26:077][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap3.NewMap3 to /Game/Maps/UEDPIE_0_NewMap3.NewMap3 (0.013443s)
+[2023.04.05-05.02.26:077][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.02.26:079][766]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.02.26:080][766]LogPlayLevel: PIE: World Init took: (0.002132s)
+[2023.04.05-05.02.26:105][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.04.05-05.02.26:107][766]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.04.05-05.02.26:107][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.05-05.02.26:107][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.05-05.02.26:107][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.05-05.02.26:107][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.05-05.02.26:107][766]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.05-05.02.26:107][766]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.05-05.02.26:107][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.05-05.02.26:107][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.05-05.02.26:109][766]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.05-05.02.26:109][766]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.05-05.02.26:109][766]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.05-05.02.26:114][766]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.05-05.02.26:165][766]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2023.04.05-05.02.26:166][766]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.05-05.02.26:166][766]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.05-05.02.26:167][766]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.05-05.02.26:170][766]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.04.05-05.02.26:170][766]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.04.05-05.02.26:174][766]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.04.05-05.02.26:174][766]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.04.05-05.02.26:174][766]LogInit: FAudioDevice initialized.
+[2023.04.05-05.02.26:174][766]LogAudio: Display: Audio Device (ID: 22) registered with world 'NewMap3'.
+[2023.04.05-05.02.26:347][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.02.26:347][766]LogLoad: Game class is 'GM_SideScroller_C'
+[2023.04.05-05.02.26:375][766]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap3.NewMap3 up for play (max tick rate 0) at 2023.04.05-00.02.26
+[2023.04.05-05.02.26:376][766]LogWorld: Bringing up level for play took: 0.026954
+[2023.04.05-05.02.26:382][766]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.04.05-05.02.26:403][766]PIE: Server logged in
+[2023.04.05-05.02.26:407][766]PIE: Play in editor total start time 0.344 seconds.
+[2023.04.05-05.02.26:527][766]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.04.05-05.03.33:482][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.03.33:482][501]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.03.33:497][501]LogSlate: Window 'FoxAdventure Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.04.05-05.03.33:577][501]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.03.33:579][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.03.33:586][501]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.05-05.03.33:590][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.03.33:607][501]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.04.05-05.03.33:610][501]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.04.05-05.03.33:628][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.04.05-05.03.33:672][502]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.04.05-05.03.55:615][614]LogEditorViewport: Clicking Background
+[2023.04.05-05.04.14:274][ 66]Cmd: DELETE
+[2023.04.05-05.04.14:275][ 66]Cmd: ACTOR DELETE
+[2023.04.05-05.04.14:281][ 66]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.14:283][ 66]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.14:284][ 66]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.14:310][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.04.05-05.04.14:313][ 66]LogEditorActor: Deleted 3 Actors (0.038 secs)
+[2023.04.05-05.04.16:467][123]LogEditorViewport: Clicking Background
+[2023.04.05-05.04.18:050][168]LogViewport: Scene viewport resized to 1893x696, mode Windowed.
+[2023.04.05-05.04.18:170][170]LogViewport: Scene viewport resized to 1695x696, mode Windowed.
+[2023.04.05-05.04.24:936][308]Cmd: DELETE
+[2023.04.05-05.04.24:936][308]Cmd: ACTOR DELETE
+[2023.04.05-05.04.24:941][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:943][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:943][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:944][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:945][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:946][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:947][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:947][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:949][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:950][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:950][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:951][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:952][308]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.24:968][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.04.05-05.04.24:971][308]LogEditorActor: Deleted 13 Actors (0.034 secs)
+[2023.04.05-05.04.28:838][414]Cmd: DELETE
+[2023.04.05-05.04.28:838][414]Cmd: ACTOR DELETE
+[2023.04.05-05.04.28:844][414]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.28:846][414]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.28:847][414]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.28:850][414]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.28:851][414]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.28:852][414]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.28:870][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.04.05-05.04.28:872][414]LogEditorActor: Deleted 6 Actors (0.034 secs)
+[2023.04.05-05.04.31:420][477]Cmd: DELETE
+[2023.04.05-05.04.31:420][477]Cmd: ACTOR DELETE
+[2023.04.05-05.04.31:426][477]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.31:429][477]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.31:429][477]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.31:431][477]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.31:432][477]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.31:457][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.04.05-05.04.31:460][477]LogEditorActor: Deleted 5 Actors (0.040 secs)
+[2023.04.05-05.04.33:727][520]Cmd: DELETE
+[2023.04.05-05.04.33:727][520]Cmd: ACTOR DELETE
+[2023.04.05-05.04.33:734][520]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.33:736][520]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.33:737][520]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.33:739][520]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.33:740][520]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.33:741][520]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.33:761][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.04.05-05.04.33:763][520]LogEditorActor: Deleted 6 Actors (0.034 secs)
+[2023.04.05-05.04.35:909][568]Cmd: DELETE
+[2023.04.05-05.04.35:909][568]Cmd: ACTOR DELETE
+[2023.04.05-05.04.35:914][568]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.35:916][568]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.35:917][568]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.35:917][568]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.35:920][568]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.35:946][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.04.05-05.04.35:949][568]LogEditorActor: Deleted 5 Actors (0.040 secs)
+[2023.04.05-05.04.38:949][621]Cmd: DELETE
+[2023.04.05-05.04.38:949][621]Cmd: ACTOR DELETE
+[2023.04.05-05.04.38:955][621]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.38:956][621]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.38:957][621]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.38:960][621]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.38:962][621]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.38:963][621]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.38:985][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.04.05-05.04.38:988][621]LogEditorActor: Deleted 6 Actors (0.038 secs)
+[2023.04.05-05.04.42:050][686]Cmd: DELETE
+[2023.04.05-05.04.42:050][686]Cmd: ACTOR DELETE
+[2023.04.05-05.04.42:054][686]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.42:056][686]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.42:057][686]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.42:058][686]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.42:060][686]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.42:081][686]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2023.04.05-05.04.42:083][686]LogEditorActor: Deleted 5 Actors (0.033 secs)
+[2023.04.05-05.04.44:547][729]Cmd: DELETE
+[2023.04.05-05.04.44:548][729]Cmd: ACTOR DELETE
+[2023.04.05-05.04.44:551][729]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.44:553][729]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.44:554][729]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.44:555][729]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.44:556][729]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.44:557][729]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.44:574][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.04.05-05.04.44:576][729]LogEditorActor: Deleted 6 Actors (0.028 secs)
+[2023.04.05-05.04.45:776][754]EditorErrors: New page: Actor attachment
+[2023.04.05-05.04.48:508][797]Cmd: DELETE
+[2023.04.05-05.04.48:508][797]Cmd: ACTOR DELETE
+[2023.04.05-05.04.48:513][797]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.48:516][797]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.48:517][797]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.48:519][797]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.48:519][797]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.04.48:535][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.04.05-05.04.48:538][797]LogEditorActor: Deleted 5 Actors (0.029 secs)
+[2023.04.05-05.05.14:311][552]Cmd: DELETE
+[2023.04.05-05.05.14:312][552]Cmd: ACTOR DELETE
+[2023.04.05-05.05.14:316][552]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.05.14:340][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.04.05-05.05.14:342][552]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2023.04.05-05.05.19:311][693]Cmd: EDIT COPY
+[2023.04.05-05.05.19:535][699]Cmd: EDIT PASTE
+[2023.04.05-05.05.39:427][270]Cmd: EDIT COPY
+[2023.04.05-05.05.39:630][274]Cmd: EDIT PASTE
+[2023.04.05-05.05.49:814][565]Cmd: EDIT COPY
+[2023.04.05-05.05.49:971][568]Cmd: EDIT PASTE
+[2023.04.05-05.07.08:306][395]Cmd: EDIT COPY
+[2023.04.05-05.07.18:045][674]Cmd: DELETE
+[2023.04.05-05.07.18:045][674]Cmd: ACTOR DELETE
+[2023.04.05-05.07.18:050][674]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.07.18:067][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.04.05-05.07.18:070][674]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2023.04.05-05.07.20:192][734]Cmd: EDIT COPY
+[2023.04.05-05.07.20:393][740]Cmd: EDIT PASTE
+[2023.04.05-05.07.22:730][807]Cmd: TRANSACTION UNDO
+[2023.04.05-05.07.22:730][807]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.07.30:153][  8]Cmd: DELETE
+[2023.04.05-05.07.30:153][  8]Cmd: ACTOR DELETE
+[2023.04.05-05.07.30:159][  8]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.07.30:177][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.04.05-05.07.30:180][  8]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2023.04.05-05.07.32:276][ 67]Cmd: EDIT COPY
+[2023.04.05-05.07.32:514][ 72]Cmd: EDIT PASTE
+[2023.04.05-05.07.37:736][216]Cmd: EDIT COPY
+[2023.04.05-05.07.37:952][220]Cmd: EDIT PASTE
+[2023.04.05-05.08.02:236][882]Cmd: EDIT COPY
+[2023.04.05-05.08.02:486][889]Cmd: EDIT PASTE
+[2023.04.05-05.08.08:506][ 63]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.08:506][ 63]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.08.14:583][215]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.14:583][215]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.08.15:171][222]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.15:172][222]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.05-05.08.19:173][285]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.19:173][285]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.08.19:785][292]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.19:785][292]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.05-05.08.21:087][309]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.21:087][309]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.05-05.08.24:310][375]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.24:310][375]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.08.24:870][382]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.24:871][382]LogEditorTransaction: Undo Paste
+[2023.04.05-05.08.26:775][407]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.26:775][407]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.05-05.08.28:460][435]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.28:460][435]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.05-05.08.30:651][481]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.30:651][481]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.05-05.08.31:727][509]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.31:727][509]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.05-05.08.32:450][532]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.32:450][532]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.05-05.08.36:151][610]Cmd: TRANSACTION UNDO
+[2023.04.05-05.08.36:152][610]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.08.37:309][625]LogEditorViewport: Clicking Background
+[2023.04.05-05.08.54:755][135]LogEditorViewport: Clicking Background
+[2023.04.05-05.09.00:503][291]Cmd: EDIT COPY
+[2023.04.05-05.09.00:831][300]Cmd: EDIT PASTE
+[2023.04.05-05.09.03:410][372]Cmd: TRANSACTION UNDO
+[2023.04.05-05.09.03:410][372]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.09.03:820][375]Cmd: TRANSACTION UNDO
+[2023.04.05-05.09.03:820][375]LogEditorTransaction: Undo Paste
+[2023.04.05-05.09.50:036][521]Cmd: EDIT COPY
+[2023.04.05-05.09.50:337][528]Cmd: EDIT PASTE
+[2023.04.05-05.09.55:437][675]Cmd: EDIT COPY
+[2023.04.05-05.09.55:650][681]Cmd: EDIT PASTE
+[2023.04.05-05.10.01:361][842]Cmd: EDIT COPY
+[2023.04.05-05.10.01:582][847]Cmd: EDIT PASTE
+[2023.04.05-05.10.06:586][983]Cmd: EDIT COPY
+[2023.04.05-05.10.06:741][986]Cmd: EDIT PASTE
+[2023.04.05-05.10.39:602][930]Cmd: EDIT COPY
+[2023.04.05-05.10.39:800][936]Cmd: EDIT PASTE
+[2023.04.05-05.10.39:800][936]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'EDIT'. 
+[2023.04.05-05.11.04:377][641]Cmd: EDIT COPY
+[2023.04.05-05.11.04:565][645]Cmd: EDIT PASTE
+[2023.04.05-05.11.08:690][759]Cmd: EDIT COPY
+[2023.04.05-05.11.08:859][762]Cmd: EDIT PASTE
+[2023.04.05-05.11.13:956][903]Cmd: EDIT COPY
+[2023.04.05-05.11.14:131][907]Cmd: EDIT PASTE
+[2023.04.05-05.11.25:107][222]Cmd: TRANSACTION UNDO
+[2023.04.05-05.11.25:107][222]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.11.25:639][227]Cmd: TRANSACTION UNDO
+[2023.04.05-05.11.25:639][227]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.05-05.11.26:125][231]Cmd: TRANSACTION UNDO
+[2023.04.05-05.11.26:125][231]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.11.57:918][ 84]Cmd: EDIT COPY
+[2023.04.05-05.11.58:060][ 86]Cmd: EDIT PASTE
+[2023.04.05-05.13.01:643][897]Cmd: TRANSACTION UNDO
+[2023.04.05-05.13.01:643][897]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.13.02:311][905]Cmd: TRANSACTION UNDO
+[2023.04.05-05.13.02:311][905]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.13.03:004][913]Cmd: TRANSACTION UNDO
+[2023.04.05-05.13.03:004][913]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.13.03:657][922]Cmd: TRANSACTION UNDO
+[2023.04.05-05.13.03:657][922]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.13.05:675][950]Cmd: EDIT COPY
+[2023.04.05-05.13.31:291][686]Cmd: EDIT COPY
+[2023.04.05-05.13.31:514][690]Cmd: EDIT PASTE
+[2023.04.05-05.13.41:693][982]Cmd: DELETE
+[2023.04.05-05.13.41:694][982]Cmd: ACTOR DELETE
+[2023.04.05-05.13.41:700][982]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.13.41:727][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.04.05-05.13.41:729][982]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2023.04.05-05.13.51:774][277]Cmd: TRANSACTION UNDO
+[2023.04.05-05.13.51:774][277]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.13.52:232][281]Cmd: TRANSACTION UNDO
+[2023.04.05-05.13.52:232][281]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.13.52:633][286]Cmd: TRANSACTION UNDO
+[2023.04.05-05.13.52:633][286]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.05-05.13.53:240][294]Cmd: TRANSACTION UNDO
+[2023.04.05-05.13.53:240][294]LogEditorTransaction: Undo Delete Elements
+[2023.04.05-05.13.53:831][301]Cmd: TRANSACTION UNDO
+[2023.04.05-05.13.53:831][301]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.05-05.13.58:199][395]Cmd: EDIT COPY
+[2023.04.05-05.13.58:422][401]Cmd: EDIT PASTE
+[2023.04.05-05.14.54:360][ 21]Cmd: DELETE
+[2023.04.05-05.14.54:360][ 21]Cmd: ACTOR DELETE
+[2023.04.05-05.14.54:364][ 21]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2023.04.05-05.14.54:382][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.04.05-05.14.54:386][ 21]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2023.04.05-05.15.14:221][606]Cmd: EDIT COPY
+[2023.04.05-05.15.14:443][612]Cmd: EDIT PASTE
+[2023.04.05-05.15.30:893][ 85]Cmd: EDIT COPY
+[2023.04.05-05.15.31:058][ 89]Cmd: EDIT PASTE
+[2023.04.05-05.15.47:358][524]Cmd: EDIT COPY
+[2023.04.05-05.15.47:542][528]Cmd: EDIT PASTE
+[2023.04.05-05.16.01:061][922]Cmd: EDIT COPY
+[2023.04.05-05.16.01:309][927]Cmd: EDIT PASTE
+[2023.04.05-05.16.34:203][879]Cmd: TRANSACTION UNDO
+[2023.04.05-05.16.34:203][879]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.16.40:389][ 44]Cmd: TRANSACTION UNDO
+[2023.04.05-05.16.40:390][ 44]LogEditorTransaction: Undo Clicking on Elements
+[2023.04.05-05.16.41:279][ 55]Cmd: TRANSACTION UNDO
+[2023.04.05-05.16.41:279][ 55]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.16.58:654][413]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.05-05.16.58:889][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.04.05-05.16.58:908][413]LogSavePackage: Moving output files for package: /Game/Maps/NewMap3
+[2023.04.05-05.16.58:908][413]LogSavePackage: Moving '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Saved/NewMap3CDEC64CE4D6A9219EA94238C541A1C4D.tmp' to '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap3.umap'
+[2023.04.05-05.16.58:928][413]LogFileHelpers: Saving map 'NewMap3' took 0.055
+[2023.04.05-05.16.58:998][413]LogFileHelpers: InternalPromptForCheckoutAndSave took 344 ms (total: 5.92 sec)
+[2023.04.05-05.16.59:015][413]AssetCheck: New page: Asset Save: NewMap3
+[2023.04.05-05.16.59:015][413]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/NewMap3.NewMap3
+[2023.04.05-05.17.03:042][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.04.05-05.17.03:298][494]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/NewMap.NewMap
+[2023.04.05-05.17.03:299][494]Cmd: MAP LOAD FILE="../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.05-05.17.03:299][494]LightingResults: New page: Lighting Build
+[2023.04.05-05.17.03:299][494]LoadErrors: New page: Loading map: NewMap.umap
+[2023.04.05-05.17.03:303][494]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.17.03:303][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.17.03:303][494]MapCheck: New page: Map Check
+[2023.04.05-05.17.03:303][494]LightingResults: New page: Lighting Build
+[2023.04.05-05.17.03:315][494]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.17.03:320][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.04.05-05.17.03:325][494]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.17.03:325][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.17.03:343][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.04.05-05.17.03:359][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.04.05-05.17.03:368][494]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap'.
+[2023.04.05-05.17.03:368][494]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.17.03:370][494]LogAIModule: Creating AISystem for world NewMap
+[2023.04.05-05.17.03:413][494]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.05-05.17.03:429][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.04.05-05.17.03:451][494]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.05-05.17.03:452][494]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.291ms to complete.
+[2023.04.05-05.17.03:452][494]LogFileHelpers: Loading map 'NewMap' took 0.153
+[2023.04.05-05.17.10:320][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.04.05-05.17.10:568][678]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/NewMap3.NewMap3
+[2023.04.05-05.17.10:568][678]Cmd: MAP LOAD FILE="../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.05-05.17.10:568][678]LightingResults: New page: Lighting Build
+[2023.04.05-05.17.10:570][678]LoadErrors: New page: Loading map: NewMap3.umap
+[2023.04.05-05.17.10:571][678]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: PaperSpriteComponent /Game/Maps/NewMap.NewMap:PersistentLevel.PaperSpriteActor_1.RenderComponent, from: Remove from navoctree)
+[2023.04.05-05.17.10:573][678]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.17.10:573][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.17.10:574][678]MapCheck: New page: Map Check
+[2023.04.05-05.17.10:574][678]LightingResults: New page: Lighting Build
+[2023.04.05-05.17.10:587][678]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.17.10:591][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.04.05-05.17.10:596][678]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.17.10:596][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.17.10:613][678]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.04.05-05.17.10:631][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.04.05-05.17.10:644][678]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap3'.
+[2023.04.05-05.17.10:644][678]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.17.10:645][678]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.17.10:708][678]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.05-05.17.10:724][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.04.05-05.17.10:736][678]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.05-05.17.10:741][678]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 5.525ms to complete.
+[2023.04.05-05.17.10:741][678]LogFileHelpers: Loading map 'NewMap3' took 0.172
+[2023.04.05-05.18.07:923][284]Cmd: EDIT COPY
+[2023.04.05-05.18.08:123][290]Cmd: EDIT PASTE
+[2023.04.05-05.18.50:705][505]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.18.51:027][513]Cmd: TRANSACTION UNDO
+[2023.04.05-05.18.51:027][513]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.18.54:309][582]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.18.55:436][608]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.04.05-05.18.55:455][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.05-05.18.55:455][608]PIE: New page: PIE session: NewMap3 (Apr 4, 2023, 7:18:55 PM)
+[2023.04.05-05.18.55:455][608]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.18.55:468][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012472s)
+[2023.04.05-05.18.55:468][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap3.NewMap3 to /Game/Maps/UEDPIE_0_NewMap3.NewMap3 (0.012554s)
+[2023.04.05-05.18.55:469][608]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.18.55:469][608]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.18.55:470][608]LogPlayLevel: PIE: World Init took: (0.002065s)
+[2023.04.05-05.18.55:516][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.04.05-05.18.55:519][608]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.04.05-05.18.55:519][608]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.05-05.18.55:519][608]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.05-05.18.55:519][608]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.05-05.18.55:519][608]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.05-05.18.55:519][608]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.05-05.18.55:519][608]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.05-05.18.55:519][608]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.05-05.18.55:519][608]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.05-05.18.55:520][608]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.05-05.18.55:520][608]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.05-05.18.55:520][608]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.05-05.18.55:525][608]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.05-05.18.55:575][608]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2023.04.05-05.18.55:576][608]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.05-05.18.55:576][608]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.05-05.18.55:576][608]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.05-05.18.55:580][608]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.04.05-05.18.55:580][608]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.04.05-05.18.55:584][608]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.04.05-05.18.55:584][608]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.04.05-05.18.55:584][608]LogInit: FAudioDevice initialized.
+[2023.04.05-05.18.55:584][608]LogAudio: Display: Audio Device (ID: 23) registered with world 'NewMap3'.
+[2023.04.05-05.18.55:718][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.18.55:718][608]LogLoad: Game class is 'GM_SideScroller_C'
+[2023.04.05-05.18.55:735][608]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap3.NewMap3 up for play (max tick rate 0) at 2023.04.05-00.18.55
+[2023.04.05-05.18.55:737][608]LogWorld: Bringing up level for play took: 0.018044
+[2023.04.05-05.18.55:743][608]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.04.05-05.18.55:763][608]PIE: Server logged in
+[2023.04.05-05.18.55:767][608]PIE: Play in editor total start time 0.314 seconds.
+[2023.04.05-05.18.55:827][608]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.04.05-05.19.10:843][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.19.10:843][832]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.19.10:847][832]LogSlate: Window 'FoxAdventure Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.04.05-05.19.10:983][832]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.19.10:984][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.19.10:988][832]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.05-05.19.10:992][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.19.11:006][832]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.19.11:008][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.04.05-05.19.11:011][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.04.05-05.19.11:024][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.04.05-05.19.11:072][833]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.04.05-05.19.16:263][980]LogEditorViewport: Clicking Background
+[2023.04.05-05.19.21:632][104]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbArea.BP_ClimbArea_C
+[2023.04.05-05.19.21:632][104]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbArea.BP_ClimbArea_C
+[2023.04.05-05.19.21:638][104]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbArea.BP_ClimbArea as actor: BP_ClimbArea_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbArea_C_2
+[2023.04.05-05.19.21:639][104]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbArea.BP_ClimbArea as actor: BP_ClimbArea_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbArea_C_2
+[2023.04.05-05.19.21:655][104]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.04.05-05.19.23:648][157]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbArea.BP_ClimbArea_C
+[2023.04.05-05.19.23:648][157]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbArea.BP_ClimbArea_C
+[2023.04.05-05.19.23:652][157]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbArea.BP_ClimbArea as actor: BP_ClimbArea_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbArea_C_3
+[2023.04.05-05.19.23:653][157]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbArea.BP_ClimbArea as actor: BP_ClimbArea_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbArea_C_3
+[2023.04.05-05.19.45:379][750]Cmd: TRANSACTION UNDO
+[2023.04.05-05.19.45:379][750]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.19.46:650][766]Cmd: EDIT COPY
+[2023.04.05-05.19.46:944][774]Cmd: EDIT PASTE
+[2023.04.05-05.19.55:180][986]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer_C
+[2023.04.05-05.19.55:180][986]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer_C
+[2023.04.05-05.19.55:184][986]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer as actor: BP_ClimbPlayer_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbPlayer_C_0
+[2023.04.05-05.19.55:186][986]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer as actor: BP_ClimbPlayer_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbPlayer_C_0
+[2023.04.05-05.19.56:670][ 24]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer_C
+[2023.04.05-05.19.56:670][ 24]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer_C
+[2023.04.05-05.19.56:681][ 24]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer as actor: BP_ClimbPlayer_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbPlayer_C_1
+[2023.04.05-05.19.56:685][ 24]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer as actor: BP_ClimbPlayer_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbPlayer_C_1
+[2023.04.05-05.19.56:837][ 25]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.20.02:620][158]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.20.03:511][171]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.20.19:561][516]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.20.27:441][699]LogEditorViewport: Clicking Background
+[2023.04.05-05.20.39:017][998]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.20.43:639][ 83]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.20.44:828][104]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.04.05-05.20.44:828][104]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.04.05-05.20.46:831][134]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.04.05-05.20.46:831][134]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.04.05-05.20.58:631][390]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.21.02:811][482]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.21.09:917][653]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.21.12:951][706]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.21.20:759][884]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.05-05.21.21:032][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.04.05-05.21.21:067][884]LogSavePackage: Moving output files for package: /Game/Maps/NewMap3
+[2023.04.05-05.21.21:068][884]LogSavePackage: Moving '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Saved/NewMap374A6A12944EFC797C0F4EC960A8393BD.tmp' to '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap3.umap'
+[2023.04.05-05.21.21:094][884]LogFileHelpers: Saving map 'NewMap3' took 0.086
+[2023.04.05-05.21.21:162][884]LogFileHelpers: InternalPromptForCheckoutAndSave took 404 ms (total: 6.32 sec)
+[2023.04.05-05.21.21:176][884]AssetCheck: New page: Asset Save: NewMap3
+[2023.04.05-05.21.21:176][884]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/NewMap3.NewMap3
+[2023.04.05-05.21.27:179][ 50]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.22.01:009][  4]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.22.01:983][ 27]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.04.05-05.22.01:992][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.05-05.22.01:992][ 27]PIE: New page: PIE session: NewMap3 (Apr 4, 2023, 7:22:01 PM)
+[2023.04.05-05.22.01:992][ 27]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.22.01:999][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006868s)
+[2023.04.05-05.22.02:000][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap3.NewMap3 to /Game/Maps/UEDPIE_0_NewMap3.NewMap3 (0.006921s)
+[2023.04.05-05.22.02:000][ 27]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.22.02:000][ 27]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.22.02:001][ 27]LogPlayLevel: PIE: World Init took: (0.001526s)
+[2023.04.05-05.22.02:066][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.04.05-05.22.02:069][ 27]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.04.05-05.22.02:069][ 27]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.05-05.22.02:069][ 27]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.05-05.22.02:069][ 27]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.05-05.22.02:069][ 27]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.05-05.22.02:069][ 27]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.05-05.22.02:069][ 27]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.05-05.22.02:069][ 27]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.05-05.22.02:069][ 27]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.05-05.22.02:070][ 27]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.05-05.22.02:070][ 27]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.05-05.22.02:070][ 27]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.05-05.22.02:076][ 27]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.05-05.22.02:111][ 27]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2023.04.05-05.22.02:111][ 27]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.05-05.22.02:111][ 27]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.05-05.22.02:111][ 27]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.05-05.22.02:112][ 27]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.04.05-05.22.02:112][ 27]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2023.04.05-05.22.02:115][ 27]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.04.05-05.22.02:115][ 27]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.04.05-05.22.02:115][ 27]LogInit: FAudioDevice initialized.
+[2023.04.05-05.22.02:115][ 27]LogAudio: Display: Audio Device (ID: 24) registered with world 'NewMap3'.
+[2023.04.05-05.22.02:239][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.22.02:240][ 27]LogLoad: Game class is 'GM_SideScroller_C'
+[2023.04.05-05.22.02:253][ 27]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap3.NewMap3 up for play (max tick rate 0) at 2023.04.05-00.22.02
+[2023.04.05-05.22.02:253][ 27]LogWorld: Bringing up level for play took: 0.013173
+[2023.04.05-05.22.02:257][ 27]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.04.05-05.22.02:269][ 27]PIE: Server logged in
+[2023.04.05-05.22.02:273][ 27]PIE: Play in editor total start time 0.282 seconds.
+[2023.04.05-05.22.02:305][ 27]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.04.05-05.22.20:231][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.22.20:232][293]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.22.20:233][293]LogSlate: Window 'FoxAdventure Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.04.05-05.22.20:315][293]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.22.20:317][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.22.20:326][293]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.05-05.22.20:331][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.22.20:349][293]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.22.20:350][293]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.04.05-05.22.20:354][293]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.04.05-05.22.20:371][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.04.05-05.22.20:428][294]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.04.05-05.22.21:375][322]LogEditorViewport: Clicking Background
+[2023.04.05-05.22.50:541][123]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbArea.BP_ClimbArea_C
+[2023.04.05-05.22.50:541][123]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbArea.BP_ClimbArea_C
+[2023.04.05-05.22.50:542][123]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbArea.BP_ClimbArea as actor: BP_ClimbArea_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbArea_C_5
+[2023.04.05-05.22.50:544][123]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbArea.BP_ClimbArea as actor: BP_ClimbArea_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbArea_C_5
+[2023.04.05-05.22.51:955][164]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbArea.BP_ClimbArea_C
+[2023.04.05-05.22.51:955][164]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbArea.BP_ClimbArea_C
+[2023.04.05-05.22.51:959][164]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbArea.BP_ClimbArea as actor: BP_ClimbArea_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbArea_C_6
+[2023.04.05-05.22.51:960][164]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbArea.BP_ClimbArea as actor: BP_ClimbArea_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbArea_C_6
+[2023.04.05-05.23.02:039][443]Cmd: EDIT COPY
+[2023.04.05-05.23.02:279][449]Cmd: EDIT PASTE
+[2023.04.05-05.23.23:538][961]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.23.39:464][303]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer_C
+[2023.04.05-05.23.39:464][303]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer_C
+[2023.04.05-05.23.39:465][303]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer as actor: BP_ClimbPlayer_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbPlayer_C_3
+[2023.04.05-05.23.39:469][303]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer as actor: BP_ClimbPlayer_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbPlayer_C_3
+[2023.04.05-05.23.40:187][322]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer_C
+[2023.04.05-05.23.40:187][322]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer_C
+[2023.04.05-05.23.40:194][322]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer as actor: BP_ClimbPlayer_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbPlayer_C_4
+[2023.04.05-05.23.40:199][322]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/BP_ClimbPlayer.BP_ClimbPlayer as actor: BP_ClimbPlayer_C /Game/Maps/NewMap3.NewMap3:PersistentLevel.BP_ClimbPlayer_C_4
+[2023.04.05-05.23.40:412][323]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.23.47:147][447]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.23.52:006][533]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.04.05-05.23.52:006][533]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.04.05-05.24.06:994][933]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.24.15:290][ 68]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.04.05-05.24.15:290][ 68]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.04.05-05.24.19:344][125]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.04.05-05.24.19:344][125]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.04.05-05.24.26:229][273]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.24.35:505][456]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.24.38:032][496]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.24.40:237][531]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.24.56:769][918]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.25.23:989][579]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.25.27:280][628]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.25.40:439][900]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.25.41:164][909]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.25.41:723][919]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.26.13:465][774]LogEditorViewport: Clicking Background
+[2023.04.05-05.26.24:089][ 89]LogEditorViewport: Clicking Background
+[2023.04.05-05.26.29:910][260]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.26.32:299][330]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.26.43:386][632]Cmd: EDIT COPY
+[2023.04.05-05.26.43:614][636]Cmd: EDIT PASTE
+[2023.04.05-05.27.03:771][195]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.27.05:311][240]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.27.06:334][264]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.04.05-05.27.06:342][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.05-05.27.06:343][264]PIE: New page: PIE session: NewMap3 (Apr 4, 2023, 7:27:06 PM)
+[2023.04.05-05.27.06:343][264]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.27.06:349][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006415s)
+[2023.04.05-05.27.06:349][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap3.NewMap3 to /Game/Maps/UEDPIE_0_NewMap3.NewMap3 (0.006461s)
+[2023.04.05-05.27.06:349][264]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.27.06:349][264]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.27.06:351][264]LogPlayLevel: PIE: World Init took: (0.001370s)
+[2023.04.05-05.27.06:410][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.04.05-05.27.06:412][264]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.04.05-05.27.06:412][264]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.05-05.27.06:412][264]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.05-05.27.06:412][264]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.05-05.27.06:412][264]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.05-05.27.06:412][264]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.05-05.27.06:412][264]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.05-05.27.06:412][264]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.05-05.27.06:412][264]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.05-05.27.06:413][264]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.05-05.27.06:413][264]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.05-05.27.06:413][264]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.05-05.27.06:417][264]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.05-05.27.06:447][264]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2023.04.05-05.27.06:453][264]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.05-05.27.06:454][264]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.05-05.27.06:454][264]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.05-05.27.06:467][264]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.04.05-05.27.06:467][264]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2023.04.05-05.27.06:470][264]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.04.05-05.27.06:470][264]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.04.05-05.27.06:470][264]LogInit: FAudioDevice initialized.
+[2023.04.05-05.27.06:470][264]LogAudio: Display: Audio Device (ID: 25) registered with world 'NewMap3'.
+[2023.04.05-05.27.06:627][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.27.06:628][264]LogLoad: Game class is 'GM_SideScroller_C'
+[2023.04.05-05.27.06:659][264]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap3.NewMap3 up for play (max tick rate 60) at 2023.04.05-00.27.06
+[2023.04.05-05.27.06:660][264]LogWorld: Bringing up level for play took: 0.031092
+[2023.04.05-05.27.06:666][264]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.04.05-05.27.06:687][264]PIE: Server logged in
+[2023.04.05-05.27.06:692][264]PIE: Play in editor total start time 0.35 seconds.
+[2023.04.05-05.27.06:743][264]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.04.05-05.27.12:733][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.27.12:733][350]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.27.12:735][350]LogSlate: Window 'FoxAdventure Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.04.05-05.27.12:816][350]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.27.12:818][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.27.12:824][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.05-05.27.12:827][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.27.12:842][350]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.27.12:843][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.04.05-05.27.12:846][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.04.05-05.27.12:861][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.04.05-05.27.12:991][351]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.04.05-05.27.15:172][410]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.27.20:619][553]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.05-05.27.20:885][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.04.05-05.27.20:919][553]LogSavePackage: Moving output files for package: /Game/Maps/NewMap3
+[2023.04.05-05.27.20:921][553]LogSavePackage: Moving '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Saved/NewMap318C9CA074F5EB082E03C928DD019B4C1.tmp' to '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap3.umap'
+[2023.04.05-05.27.20:946][553]LogFileHelpers: Saving map 'NewMap3' took 0.082
+[2023.04.05-05.27.21:071][553]LogFileHelpers: InternalPromptForCheckoutAndSave took 451 ms (total: 6.77 sec)
+[2023.04.05-05.27.21:080][553]AssetCheck: New page: Asset Save: NewMap3
+[2023.04.05-05.27.21:080][553]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/NewMap3.NewMap3
+[2023.04.05-05.27.23:775][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.04.05-05.27.23:977][611]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/NewMap.NewMap
+[2023.04.05-05.27.23:977][611]Cmd: MAP LOAD FILE="../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.05-05.27.23:977][611]LightingResults: New page: Lighting Build
+[2023.04.05-05.27.23:977][611]LoadErrors: New page: Loading map: NewMap.umap
+[2023.04.05-05.27.23:982][611]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.27.23:982][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.27.23:982][611]MapCheck: New page: Map Check
+[2023.04.05-05.27.23:982][611]LightingResults: New page: Lighting Build
+[2023.04.05-05.27.23:996][611]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.27.24:002][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.04.05-05.27.24:008][611]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.27.24:008][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.27.24:024][611]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.04.05-05.27.24:036][611]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.04.05-05.27.24:044][611]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap'.
+[2023.04.05-05.27.24:044][611]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.27.24:045][611]LogAIModule: Creating AISystem for world NewMap
+[2023.04.05-05.27.24:086][611]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.05-05.27.24:105][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.04.05-05.27.24:120][611]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.05-05.27.24:120][611]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.259ms to complete.
+[2023.04.05-05.27.24:120][611]LogFileHelpers: Loading map 'NewMap' took 0.143
+[2023.04.05-05.27.27:760][694]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.27.52:562][293]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.28.13:583][891]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.04.05-05.28.13:772][891]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/NewMap3.NewMap3
+[2023.04.05-05.28.13:772][891]Cmd: MAP LOAD FILE="../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.05-05.28.13:772][891]LightingResults: New page: Lighting Build
+[2023.04.05-05.28.13:772][891]LoadErrors: New page: Loading map: NewMap3.umap
+[2023.04.05-05.28.13:779][891]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: PaperSpriteComponent /Game/Maps/NewMap.NewMap:PersistentLevel.PaperSpriteActor_1.RenderComponent, from: Remove from navoctree)
+[2023.04.05-05.28.13:779][891]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.28.13:779][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.28.13:779][891]MapCheck: New page: Map Check
+[2023.04.05-05.28.13:779][891]LightingResults: New page: Lighting Build
+[2023.04.05-05.28.13:793][891]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.28.13:797][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.04.05-05.28.13:801][891]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.28.13:802][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.28.13:820][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.04.05-05.28.13:834][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.04.05-05.28.13:844][891]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap3'.
+[2023.04.05-05.28.13:844][891]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.28.13:844][891]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.28.13:914][891]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.05-05.28.13:933][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.04.05-05.28.13:954][891]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.05-05.28.13:954][891]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.315ms to complete.
+[2023.04.05-05.28.13:954][891]LogFileHelpers: Loading map 'NewMap3' took 0.181
+[2023.04.05-05.28.26:334][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.04.05-05.28.26:584][201]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/NewMap2.NewMap2
+[2023.04.05-05.28.26:584][201]Cmd: MAP LOAD FILE="../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.05-05.28.26:584][201]LightingResults: New page: Lighting Build
+[2023.04.05-05.28.26:584][201]LoadErrors: New page: Loading map: NewMap2.umap
+[2023.04.05-05.28.26:589][201]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.28.26:589][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.28.26:589][201]MapCheck: New page: Map Check
+[2023.04.05-05.28.26:589][201]LightingResults: New page: Lighting Build
+[2023.04.05-05.28.26:603][201]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.28.26:609][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.04.05-05.28.26:613][201]LogWorld: UWorld::CleanupWorld for NewMap2, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.28.26:613][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.28.26:632][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.04.05-05.28.26:654][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.04.05-05.28.26:669][201]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap2'.
+[2023.04.05-05.28.26:669][201]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.28.26:670][201]LogAIModule: Creating AISystem for world NewMap2
+[2023.04.05-05.28.26:763][201]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.05-05.28.26:800][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.04.05-05.28.26:819][201]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.05-05.28.26:819][201]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.333ms to complete.
+[2023.04.05-05.28.26:819][201]LogFileHelpers: Loading map 'NewMap2' took 0.234
+[2023.04.05-05.28.29:148][253]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.28.41:675][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.04.05-05.28.41:929][596]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/NewMap3.NewMap3
+[2023.04.05-05.28.41:929][596]Cmd: MAP LOAD FILE="../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.05-05.28.41:930][596]LightingResults: New page: Lighting Build
+[2023.04.05-05.28.41:930][596]LoadErrors: New page: Loading map: NewMap3.umap
+[2023.04.05-05.28.41:934][596]LogWorld: UWorld::CleanupWorld for NewMap2, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.28.41:934][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.28.41:934][596]MapCheck: New page: Map Check
+[2023.04.05-05.28.41:934][596]LightingResults: New page: Lighting Build
+[2023.04.05-05.28.41:950][596]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.28.41:955][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.04.05-05.28.41:960][596]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.28.41:961][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.28.41:976][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.04.05-05.28.41:989][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.04.05-05.28.41:999][596]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap3'.
+[2023.04.05-05.28.41:999][596]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.28.42:000][596]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.28.42:058][596]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.05-05.28.42:076][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.04.05-05.28.42:090][596]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.05-05.28.42:095][596]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 5.415ms to complete.
+[2023.04.05-05.28.42:095][596]LogFileHelpers: Loading map 'NewMap3' took 0.165
+[2023.04.05-05.28.44:373][654]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.28.53:718][909]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.28.56:566][971]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.28.58:644][  3]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.28.59:738][ 25]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.29.25:585][764]LogEditorViewport: Clicking Background
+[2023.04.05-05.29.48:621][444]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.30.00:720][735]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.30.04:433][802]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.30.13:398][ 32]LogEditorViewport: Clicking Background
+[2023.04.05-05.30.14:849][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.05-05.30.15:054][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.04.05-05.30.15:075][ 74]LogSavePackage: Moving output files for package: /Game/Maps/NewMap3
+[2023.04.05-05.30.15:075][ 74]LogSavePackage: Moving '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Saved/NewMap3D6E89E6D41B0BC1BE0FBDEA36ADCA383.tmp' to '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap3.umap'
+[2023.04.05-05.30.15:087][ 74]LogFileHelpers: Saving map 'NewMap3' took 0.050
+[2023.04.05-05.30.15:161][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave took 311 ms (total: 7.09 sec)
+[2023.04.05-05.30.15:173][ 74]AssetCheck: New page: Asset Save: NewMap3
+[2023.04.05-05.30.15:173][ 74]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/NewMap3.NewMap3
+[2023.04.05-05.30.17:680][150]LogDerivedDataCache: C:/Users/annaj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.274 and deleted 0 files with total size 0 MiB. Scanned 3821 files in 3781 folders with total size 218 MiB.
+[2023.04.05-05.30.34:106][788]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.04.05-05.30.34:116][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.05-05.30.34:116][788]PIE: New page: PIE session: NewMap3 (Apr 4, 2023, 7:30:34 PM)
+[2023.04.05-05.30.34:116][788]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.30.34:123][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007643s)
+[2023.04.05-05.30.34:123][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap3.NewMap3 to /Game/Maps/UEDPIE_0_NewMap3.NewMap3 (0.007684s)
+[2023.04.05-05.30.34:124][788]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.30.34:124][788]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.30.34:124][788]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2023.04.05-05.30.34:133][788]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.04.05-05.30.34:133][788]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2023.04.05-05.30.34:133][788]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.05-05.30.34:133][788]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.05-05.30.34:133][788]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.05-05.30.34:133][788]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.05-05.30.34:133][788]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.05-05.30.34:133][788]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.05-05.30.34:133][788]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.05-05.30.34:133][788]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.05-05.30.34:134][788]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.05-05.30.34:134][788]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.05-05.30.34:134][788]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.05-05.30.34:136][788]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.05-05.30.34:174][788]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2023.04.05-05.30.34:175][788]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.05-05.30.34:175][788]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.05-05.30.34:175][788]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.05-05.30.34:176][788]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2023.04.05-05.30.34:176][788]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2023.04.05-05.30.34:178][788]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2023.04.05-05.30.34:178][788]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2023.04.05-05.30.34:178][788]LogInit: FAudioDevice initialized.
+[2023.04.05-05.30.34:178][788]LogAudio: Display: Audio Device (ID: 26) registered with world 'NewMap3'.
+[2023.04.05-05.30.34:263][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.30.34:264][788]LogLoad: Game class is 'GM_SideScroller_C'
+[2023.04.05-05.30.34:270][788]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap3.NewMap3 up for play (max tick rate 0) at 2023.04.05-00.30.34
+[2023.04.05-05.30.34:270][788]LogWorld: Bringing up level for play took: 0.007051
+[2023.04.05-05.30.34:273][788]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.04.05-05.30.34:286][788]PIE: Server logged in
+[2023.04.05-05.30.34:288][788]PIE: Play in editor total start time 0.173 seconds.
+[2023.04.05-05.30.34:343][788]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.04.05-05.31.00:730][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.31.00:730][921]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.31.00:743][921]LogSlate: Window 'FoxAdventure Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.04.05-05.31.00:816][921]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.31.00:817][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.31.00:824][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.05-05.31.00:828][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.31.00:851][921]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.04.05-05.31.00:854][921]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.04.05-05.31.00:868][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.04.05-05.31.00:939][922]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.04.05-05.31.05:041][214]LogEditorViewport: Clicking Background
+[2023.04.05-05.31.06:390][315]LogEditorViewport: Clicking Background
+[2023.04.05-05.31.27:651][512]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.31.29:256][555]LogEditorViewport: Clicking Background
+[2023.04.05-05.31.46:082][334]LogEditorViewport: Clicking Background
+[2023.04.05-05.32.05:954][331]LogEditorViewport: Clicking Background
+[2023.04.05-05.32.08:763][468]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.05-05.32.08:913][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.04.05-05.32.08:925][468]LogSavePackage: Moving output files for package: /Game/Maps/NewMap3
+[2023.04.05-05.32.08:926][468]LogSavePackage: Moving '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Saved/NewMap31C75A691462ECB5F94FCABAB1C03C1D2.tmp' to '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap3.umap'
+[2023.04.05-05.32.08:935][468]LogFileHelpers: Saving map 'NewMap3' took 0.030
+[2023.04.05-05.32.08:983][468]LogFileHelpers: InternalPromptForCheckoutAndSave took 219 ms (total: 7.30 sec)
+[2023.04.05-05.32.08:987][468]AssetCheck: New page: Asset Save: NewMap3
+[2023.04.05-05.32.08:987][468]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/NewMap3.NewMap3
+[2023.04.05-05.32.55:331][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.04.05-05.32.55:469][ 34]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/NewMap2.NewMap2
+[2023.04.05-05.32.55:469][ 34]Cmd: MAP LOAD FILE="../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.05-05.32.55:469][ 34]LightingResults: New page: Lighting Build
+[2023.04.05-05.32.55:469][ 34]LoadErrors: New page: Loading map: NewMap2.umap
+[2023.04.05-05.32.55:472][ 34]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.32.55:472][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.32.55:472][ 34]MapCheck: New page: Map Check
+[2023.04.05-05.32.55:472][ 34]LightingResults: New page: Lighting Build
+[2023.04.05-05.32.55:481][ 34]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.32.55:484][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.04.05-05.32.55:487][ 34]LogWorld: UWorld::CleanupWorld for NewMap2, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.32.55:489][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.32.55:501][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.04.05-05.32.55:514][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.04.05-05.32.55:522][ 34]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap2'.
+[2023.04.05-05.32.55:524][ 34]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.32.55:524][ 34]LogAIModule: Creating AISystem for world NewMap2
+[2023.04.05-05.32.55:561][ 34]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.05-05.32.55:576][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.04.05-05.32.55:587][ 34]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.05-05.32.55:587][ 34]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.195ms to complete.
+[2023.04.05-05.32.55:587][ 34]LogFileHelpers: Loading map 'NewMap2' took 0.118
+[2023.04.05-05.33.08:704][ 23]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.33.14:639][378]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.33.18:448][550]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.33.22:089][691]LogEditorViewport: Clicking Background
+[2023.04.05-05.33.23:174][750]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.05-05.33.23:362][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.04.05-05.33.23:374][750]LogSavePackage: Moving output files for package: /Game/Maps/NewMap2
+[2023.04.05-05.33.23:375][750]LogSavePackage: Moving '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Saved/NewMap295D1D20B4C59A80F9EB1D8AF42DB51AF.tmp' to '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap2.umap'
+[2023.04.05-05.33.23:386][750]LogFileHelpers: Saving map 'NewMap2' took 0.033
+[2023.04.05-05.33.23:430][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 255 ms (total: 7.56 sec)
+[2023.04.05-05.33.23:435][750]AssetCheck: New page: Asset Save: NewMap2
+[2023.04.05-05.33.23:435][750]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/NewMap2.NewMap2
+[2023.04.05-05.34.33:893][104]LogEditorViewport: Clicking Background
+[2023.04.05-05.34.38:058][318]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.34.39:080][364]Cmd: TRANSACTION UNDO
+[2023.04.05-05.34.39:080][364]LogEditorTransaction: Undo Move Elements
+[2023.04.05-05.34.40:354][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.04.05-05.34.40:502][397]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/NewMap3.NewMap3
+[2023.04.05-05.34.40:503][397]Cmd: MAP LOAD FILE="../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.05-05.34.40:503][397]LightingResults: New page: Lighting Build
+[2023.04.05-05.34.40:503][397]LoadErrors: New page: Loading map: NewMap3.umap
+[2023.04.05-05.34.40:505][397]LogWorld: UWorld::CleanupWorld for NewMap2, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.34.40:506][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.34.40:506][397]MapCheck: New page: Map Check
+[2023.04.05-05.34.40:506][397]LightingResults: New page: Lighting Build
+[2023.04.05-05.34.40:516][397]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.34.40:521][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.04.05-05.34.40:527][397]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.34.40:527][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.34.40:547][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.04.05-05.34.40:560][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.04.05-05.34.40:572][397]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap3'.
+[2023.04.05-05.34.40:572][397]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.34.40:573][397]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.34.40:632][397]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.05-05.34.40:648][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.04.05-05.34.40:657][397]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.05-05.34.40:657][397]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.125ms to complete.
+[2023.04.05-05.34.40:657][397]LogFileHelpers: Loading map 'NewMap3' took 0.154
+[2023.04.05-05.34.45:710][591]LogViewport: Scene viewport resized to 802x329, mode Windowed.
+[2023.04.05-05.34.54:102][992]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.34.55:970][101]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.34.58:733][261]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.34.59:850][317]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.04.05-05.34.59:857][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.05-05.34.59:857][317]PIE: New page: PIE session: NewMap3 (Apr 4, 2023, 7:34:59 PM)
+[2023.04.05-05.34.59:857][317]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.34.59:864][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005659s)
+[2023.04.05-05.34.59:864][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap3.NewMap3 to /Game/Maps/UEDPIE_0_NewMap3.NewMap3 (0.005712s)
+[2023.04.05-05.34.59:864][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.34.59:864][317]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.34.59:865][317]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2023.04.05-05.34.59:875][317]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.04.05-05.34.59:876][317]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2023.04.05-05.34.59:876][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.05-05.34.59:876][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.05-05.34.59:876][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.05-05.34.59:876][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.05-05.34.59:876][317]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.05-05.34.59:876][317]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.05-05.34.59:876][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.05-05.34.59:876][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.05-05.34.59:877][317]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.05-05.34.59:877][317]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.05-05.34.59:877][317]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.05-05.34.59:880][317]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.05-05.34.59:929][317]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2023.04.05-05.34.59:930][317]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.05-05.34.59:930][317]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.05-05.34.59:930][317]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.05-05.34.59:935][317]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2023.04.05-05.34.59:935][317]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2023.04.05-05.34.59:939][317]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2023.04.05-05.34.59:939][317]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2023.04.05-05.34.59:940][317]LogInit: FAudioDevice initialized.
+[2023.04.05-05.34.59:940][317]LogAudio: Display: Audio Device (ID: 27) registered with world 'NewMap3'.
+[2023.04.05-05.35.00:129][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.35.00:130][317]LogLoad: Game class is 'GM_SideScroller_C'
+[2023.04.05-05.35.00:140][317]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap3.NewMap3 up for play (max tick rate 60) at 2023.04.05-00.35.00
+[2023.04.05-05.35.00:142][317]LogWorld: Bringing up level for play took: 0.011238
+[2023.04.05-05.35.00:145][317]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.04.05-05.35.00:157][317]PIE: Server logged in
+[2023.04.05-05.35.00:159][317]PIE: Play in editor total start time 0.303 seconds.
+[2023.04.05-05.35.00:208][317]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.04.05-05.35.03:880][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.35.03:881][523]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.35.03:887][523]LogSlate: Window 'FoxAdventure Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.04.05-05.35.03:953][523]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.35.03:954][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.35.03:960][523]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.05-05.35.03:964][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.35.03:985][523]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.35.03:985][523]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.04.05-05.35.03:989][523]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.04.05-05.35.04:000][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.04.05-05.35.04:031][524]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.04.05-05.35.08:880][774]Cmd: EDIT COPY
+[2023.04.05-05.35.10:032][822]Cmd: EDIT COPY
+[2023.04.05-05.35.10:257][829]Cmd: EDIT PASTE
+[2023.04.05-05.35.24:317][511]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.35.25:293][547]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.04.05-05.35.25:301][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.05-05.35.25:301][547]PIE: New page: PIE session: NewMap3 (Apr 4, 2023, 7:35:25 PM)
+[2023.04.05-05.35.25:301][547]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.35.25:307][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005536s)
+[2023.04.05-05.35.25:307][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap3.NewMap3 to /Game/Maps/UEDPIE_0_NewMap3.NewMap3 (0.005567s)
+[2023.04.05-05.35.25:307][547]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.35.25:307][547]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.35.25:307][547]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2023.04.05-05.35.25:317][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.04.05-05.35.25:319][547]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.04.05-05.35.25:319][547]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.05-05.35.25:319][547]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.05-05.35.25:319][547]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.05-05.35.25:319][547]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.05-05.35.25:319][547]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.05-05.35.25:319][547]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.05-05.35.25:319][547]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.05-05.35.25:319][547]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.05-05.35.25:321][547]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.05-05.35.25:321][547]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.05-05.35.25:321][547]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.05-05.35.25:327][547]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.05-05.35.25:369][547]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2023.04.05-05.35.25:369][547]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.05-05.35.25:369][547]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.05-05.35.25:369][547]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.05-05.35.25:372][547]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.04.05-05.35.25:372][547]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2023.04.05-05.35.25:374][547]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.04.05-05.35.25:374][547]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.04.05-05.35.25:374][547]LogInit: FAudioDevice initialized.
+[2023.04.05-05.35.25:374][547]LogAudio: Display: Audio Device (ID: 28) registered with world 'NewMap3'.
+[2023.04.05-05.35.25:578][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.35.25:578][547]LogLoad: Game class is 'GM_SideScroller_C'
+[2023.04.05-05.35.25:587][547]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap3.NewMap3 up for play (max tick rate 60) at 2023.04.05-00.35.25
+[2023.04.05-05.35.25:588][547]LogWorld: Bringing up level for play took: 0.009107
+[2023.04.05-05.35.25:591][547]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.04.05-05.35.25:600][547]PIE: Server logged in
+[2023.04.05-05.35.25:603][547]PIE: Play in editor total start time 0.303 seconds.
+[2023.04.05-05.35.25:654][547]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.04.05-05.35.28:871][723]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.35.28:871][723]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.35.28:881][723]LogSlate: Window 'FoxAdventure Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.04.05-05.35.28:945][723]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.35.28:945][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.35.28:950][723]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.05-05.35.28:952][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.35.28:964][723]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.05-05.35.28:964][723]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.04.05-05.35.28:968][723]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.04.05-05.35.28:979][723]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.04.05-05.35.29:016][724]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.04.05-05.35.34:225][ 13]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.04.05-05.35.34:233][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.05-05.35.34:233][ 13]PIE: New page: PIE session: NewMap3 (Apr 4, 2023, 7:35:34 PM)
+[2023.04.05-05.35.34:233][ 13]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.35.34:239][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005597s)
+[2023.04.05-05.35.34:239][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap3.NewMap3 to /Game/Maps/UEDPIE_0_NewMap3.NewMap3 (0.005631s)
+[2023.04.05-05.35.34:239][ 13]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.05-05.35.34:240][ 13]LogAIModule: Creating AISystem for world NewMap3
+[2023.04.05-05.35.34:240][ 13]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2023.04.05-05.35.34:249][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.04.05-05.35.34:250][ 13]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2023.04.05-05.35.34:250][ 13]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.05-05.35.34:250][ 13]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.05-05.35.34:250][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.05-05.35.34:250][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.05-05.35.34:250][ 13]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.05-05.35.34:250][ 13]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.05-05.35.34:250][ 13]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.05-05.35.34:250][ 13]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.05-05.35.34:251][ 13]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.05-05.35.34:251][ 13]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.05-05.35.34:251][ 13]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.05-05.35.34:254][ 13]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.05-05.35.34:276][ 13]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2023.04.05-05.35.34:277][ 13]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.05-05.35.34:277][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.05-05.35.34:277][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.05-05.35.34:282][ 13]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2023.04.05-05.35.34:282][ 13]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2023.04.05-05.35.34:284][ 13]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2023.04.05-05.35.34:284][ 13]LogInit: FAudioDevice initialized.
+[2023.04.05-05.35.34:284][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2023.04.05-05.35.34:284][ 13]LogAudio: Display: Audio Device (ID: 29) registered with world 'NewMap3'.
+[2023.04.05-05.35.34:436][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.35.34:437][ 13]LogLoad: Game class is 'GM_SideScroller_C'
+[2023.04.05-05.35.34:454][ 13]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap3.NewMap3 up for play (max tick rate 60) at 2023.04.05-00.35.34
+[2023.04.05-05.35.34:455][ 13]LogWorld: Bringing up level for play took: 0.016793
+[2023.04.05-05.35.34:460][ 13]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.04.05-05.35.34:473][ 13]PIE: Server logged in
+[2023.04.05-05.35.34:476][ 13]PIE: Play in editor total start time 0.243 seconds.
+[2023.04.05-05.35.34:527][ 13]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.04.05-05.36.03:020][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.05-05.36.03:020][707]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewMap3
+[2023.04.05-05.36.03:024][707]LogSlate: Window 'FoxAdventure Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.04.05-05.36.03:081][707]LogWorld: UWorld::CleanupWorld for NewMap3, bSessionEnded=true, bCleanupResources=true
+[2023.04.05-05.36.03:082][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.36.03:086][707]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.05-05.36.03:089][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.05-05.36.03:103][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.04.05-05.36.03:105][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.04.05-05.36.03:115][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.04.05-05.36.03:158][708]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.04.05-05.36.05:314][797]LogEditorViewport: Clicking Background
+[2023.04.05-05.36.08:876][989]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.36.10:351][ 73]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.04.05-05.36.14:260][297]LogEditorViewport: Clicking Background
+[2023.04.05-05.37.04:435][247]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.05-05.37.04:586][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.04.05-05.37.04:600][247]LogSavePackage: Moving output files for package: /Game/Maps/NewMap3
+[2023.04.05-05.37.04:601][247]LogSavePackage: Moving '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Saved/NewMap33FFE063E401C417B18EA4CB032308161.tmp' to '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap3.umap'
+[2023.04.05-05.37.04:613][247]LogFileHelpers: Saving map 'NewMap3' took 0.035
+[2023.04.05-05.37.04:670][247]LogFileHelpers: InternalPromptForCheckoutAndSave took 234 ms (total: 7.79 sec)
+[2023.04.05-05.37.04:678][247]AssetCheck: New page: Asset Save: NewMap3
+[2023.04.05-05.37.04:679][247]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/NewMap3.NewMap3
+[2023.04.05-05.37.05:642][302]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.05-05.37.05:790][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.04.05-05.37.05:804][302]LogSavePackage: Moving output files for package: /Game/Maps/NewMap3
+[2023.04.05-05.37.05:804][302]LogSavePackage: Moving '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Saved/NewMap37E0807944D75044BD0C71E912144F8CF.tmp' to '../../../../../../Users/annaj/OneDrive - UW/Desktop/415 game/CS415-Final-Project/Content/Maps/NewMap3.umap'
+[2023.04.05-05.37.05:815][302]LogFileHelpers: Saving map 'NewMap3' took 0.033
+[2023.04.05-05.37.05:867][302]LogFileHelpers: InternalPromptForCheckoutAndSave took 226 ms (total: 8.02 sec)
+[2023.04.05-05.37.05:872][302]AssetCheck: New page: Asset Save: NewMap3
+[2023.04.05-05.37.05:872][302]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/NewMap3.NewMap3
